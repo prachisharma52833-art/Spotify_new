@@ -193,5 +193,6 @@ FROM cte
 ORDER BY 2 DESC
 ```
 
-
+### Conclusion:
+Through this SQL-based analysis,meaningful insights were derived about spotify's music trends.This project demonstrates how SQL can be effectively used to extract , analyze,and interpret large datasets to uncover data-driven insights in the music industry.
 
