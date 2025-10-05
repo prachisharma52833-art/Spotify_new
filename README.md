@@ -4,12 +4,13 @@
 The objective of this project is to analyse Spotify music data using SQL to extract meaningful insights about songs,artists etc.The project aims to demonstrate data analysis skills by writing optimized SQL queries to identify key trends such as the most popular tracks,top artists,, song, duration,etc.
 
 
-##Dataset
+## Dataset
 The data for this project is sourced from the kaggle dataset:
-Dataset Link:https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset
+-**Dataset Link:**https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset
 
-##Schema
+## Schema
 
+```sql
 DROP TABLE IF EXISTS spotify;
 CREATE TABLE spotify (
     artist VARCHAR(255),
@@ -37,3 +38,4 @@ CREATE TABLE spotify (
     energy_liveness FLOAT,
     most_played_on VARCHAR(50)
 );
+```
