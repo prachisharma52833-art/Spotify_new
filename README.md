@@ -8,7 +8,8 @@ The objective of this project is to analyse Spotify music data using SQL to extr
 The data for this project is sourced from the kaggle dataset:
 Dataset Link:https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset
 
-Schema
+##Schema
+
 DROP TABLE IF EXISTS spotify;
 CREATE TABLE spotify (
     artist VARCHAR(255),
